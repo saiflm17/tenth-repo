@@ -1,2 +1,2 @@
 FROM httpd
-COPY . /usr/local/apache2/htdocs/
+COPY tenthrepo/index.html /usr/local/apache2/htdocs/
