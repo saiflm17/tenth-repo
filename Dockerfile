@@ -1,2 +1,3 @@
 FROM httpd
-COPY . /usr/local/apache2/htdocs/
+WORKDIR /devops/sai
+copy . .
